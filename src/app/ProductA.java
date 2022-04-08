@@ -5,6 +5,8 @@ package app;
  * @version 1.0.0
  */
 
+// Класс наследует класс-модель,
+// и реализует интерфейс базового функционала Товара.
 public class ProductA extends Product implements Sales {
 
     int quantity;

@@ -27,6 +27,7 @@ public class App {
         showData(processData());
     }
 
+    // Инициализация переменных
     private static void initVars() {
 
         Scanner scan = new Scanner(System.in);
@@ -51,6 +52,7 @@ public class App {
         scan.close();
     }
 
+    // Передача данных на обработку
     private static String processData() {
         merchantA = new MerchantA(merchantName, phone, email);
         infoMerchant = merchantA.infoMerchant();
@@ -61,6 +63,7 @@ public class App {
         return infoMerchant + infoProduct + "\nБонус (грн.): " + roundBonus;
     }
 
+    // Вывод данных
     private static void showData(String output) {
         System.out.println(output);
     }

@@ -5,6 +5,8 @@ package app;
  * @version 1.0.0
  */
 
+// Класс наследует класс-модель,
+// и реализует интерфейс базового функционала Продавца.
 public class MerchantA extends Merchant implements Bonus {
 
     String email;
