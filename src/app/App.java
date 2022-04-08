@@ -5,6 +5,7 @@ package app;
  * @version 1.0.0
  */
 
+// Класс-входная точка в приложение.
 public class App {
 
     static String merchantName;

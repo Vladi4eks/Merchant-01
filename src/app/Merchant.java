@@ -5,6 +5,7 @@ package app;
  * @version 1.0.0
  */
 
+// Модель объекта Продавца.
 public class Merchant {
 
     private final String name;
